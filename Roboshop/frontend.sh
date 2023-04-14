@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 source common.sh
 #Roboshop -Frontend Script
-##################################
 echo Installing Nginx
 yum install nginx -y
 StatusCheck
