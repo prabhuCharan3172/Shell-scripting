@@ -2,7 +2,7 @@
 source common.sh
 #Roboshop -Frontend Script
 echo Installing Nginx
-yum install nginx -y
+yum install nginx -y &>>/tmp/frontend.log
 StatusCheck
 echo Enabling Nginx
 systemctl enable nginx
